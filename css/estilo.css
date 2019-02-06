@@ -1,0 +1,132 @@
+body{
+  margin: 0px;
+  padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-title{
+  color: #222;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+.parallax-window{
+    background: transparent;
+}
+
+div.spacer{
+    width: 100%;
+    height: 70px;
+    background: transparent!important;
+}
+
+
+
+#about{
+  background-image: url(../images/fondo_gradient.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* footer*/ 
+
+
+footer {
+    text-align: center;
+    display:block;
+    margin: 0px auto;
+     background-color: #003956;
+    width: 100%;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+footer p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+footer ul {
+    padding:0;
+    list-style: none;
+}
+footer .social-icon {
+    color: #fff;
+}
+footer ul.social-icons {
+    margin-top: 10px;
+}
+footer .social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+footer .social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+footer .fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+footer .fa-facebook:hover {
+    background-color: #3d5b99;
+}
+footer .fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+footer .fa-twitter:hover {
+    background-color: #00aced;
+}
+footer .fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+footer .fa-youtube:hover {
+    background-color: #e64a41;
+}
+footer .fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+footer .fa-linkedin:hover {
+    background-color: #0073a4;
+}
+footer .fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+footer .fa-google-plus:hover {
+    background-color: #DD5144;
+}

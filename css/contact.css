@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+#contact section{
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #003956;
+}
+
+#contact .container{
+  width:80%;
+  overflow:hidden;
+  margin: 0px auto;
+  display: flex;
+}
+
+#contact .left{
+  float:left;
+  width:100%;
+  margin:5px;
+  text-align:center;
+}
+
+#contact form{
+    padding:15px 0px;
+}
+
+#contact select, #contact .submit{
+  background: #ccc;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+  width: 200px;
+  font-size: 16px;
+}
+
+#contact form fieldset, #contact textarea{
+  border:0;
+  font-size:12px;
+}
+
+#contact label{
+    
+ font-size: 20px;
+  width: 100%;
+  color: white;
+  padding: 10px;
+ 
+}
+
+#contact input{
+  height: 53px;
+}
+
+
+#contact select{
+  margin-top: 20px;
+}
+
+#contact input, #contact textarea{
+  margin: 5px auto;
+  padding:10px 0px 10px 10px;
+  border:0;
+  text-align:left;
+  background-color:#EFEBE9;
+  color:#616161;
+  width: 500px;
+}
+
+
+#contact input:focus{
+  background: #ccc;
+}
+
+#contact textarea{
+  resize: none;
+}
+
+#contact .submit{
+  min-height: 40px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+

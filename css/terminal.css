@@ -1,0 +1,94 @@
+.terminalDevice{
+display: none;
+
+}
+
+#terminal{
+/*   margin-top: 10%; */
+    height: 50vh!important;
+}
+
+#terminal, .terminalContent img{
+    width: 100%;
+}
+
+.terminalContent{
+    
+    width: 613px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 250px;
+    margin-top: 200px;
+    background: black;
+}
+
+.terminalContent div p{
+      color: lime; 
+      font-family: "Courier";
+      font-size: 18px;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 100%;
+}
+
+
+/* ANIMACIONES */
+.p_one{
+    animation: type 4s steps(60, end);
+}
+
+.p_two{
+  animation: type2 2s steps(60, end);
+}
+
+.p_three{
+  animation: type2 5s steps(60, end);
+}
+
+.p_four{
+  animation: type2 8s steps(60, end);
+}
+
+.p_five{
+  animation: type2 16s steps(600, end);
+}
+
+.terminalContent > p a{
+  text-decoration: none;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+
+::selection{
+  background: black;
+    color: white;
+}
+
+@media only screen and (max-width: 650px) {
+    #about{
+       display: none;
+    }
+      .terminalDevice{
+        display: block;
+     
+    }
+    .terminalDevice img{
+         width:100%!important;
+   
+       
+    }
+}@media only screen and (max-width: 990px) {
+    .terminalContent div p{
+       font-size: 15px;  
+    }
+  
+}
